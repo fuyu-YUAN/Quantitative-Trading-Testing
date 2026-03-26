@@ -1,24 +1,30 @@
 # 忽略所有文件
-*
 
-.vs\量化测试
+
+.vs
+
+.vs/
+__pycache__/
+data/
+scan_logs/
+*.pyc
 
 # 允许进入所有目录（不然无法匹配到子路径）
-!*/
+# !*/
 
 # 放行你要跟踪的文件（逐个列出来）
-!.gitignore
-!requirements.txt
-!config.py
-!run_daily.py
-!run_intraday.py
-!01_data_history.py
-!02_data_realtime.py
-!03_features.py
-!04_strategy_rules.py
-!05_backtest.py
-!06_report.py
-!07_realtime_scanner.py
-!08_realtime_scan.py
-!fix_network.py
-!量化测试.py
+# !.gitignore
+# !requirements.txt
+# !config.py
+# !run_daily.py
+# !run_intraday.py
+# !01_data_history.py
+# !02_data_realtime.py
+# !03_features.py
+# !04_strategy_rules.py
+# !05_backtest.py
+# !06_report.py
+# !07_realtime_scanner.py
+# !08_realtime_scan.py
+# !fix_network.py
+# !量化测试.py
