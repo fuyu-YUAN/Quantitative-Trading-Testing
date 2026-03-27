@@ -3,7 +3,7 @@
 全市场信号扫描 - 从已下载的历史数据中选股（专用版）
 
 策略信号:
-  MA(5,10,20) 多头排列 连续 14 天：
+  MA(5,10,20) 多头排列 连续 8 天：
     对最近14个交易日，每天满足 MA5 > MA10 > MA20
 
 排序:
@@ -26,7 +26,7 @@ RESULT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'r
 
 # 均线参数
 MA_PERIODS = (5, 10, 20)
-STACK_DAYS = 14
+STACK_DAYS = 8
 
 # 输出数量
 TOP_N = 50

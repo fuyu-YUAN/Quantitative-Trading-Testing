@@ -15,7 +15,7 @@ from io import BytesIO
 # ============================================================
 # 配置
 # ============================================================
-MIN_NET_INFLOW_WAN = 300
+MIN_NET_INFLOW_WAN = 3000
 SCAN_INTERVAL = 60
 TOP_N = 80
 LOG_DIR = "scan_logs"
