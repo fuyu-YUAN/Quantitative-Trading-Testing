@@ -26,7 +26,7 @@ RESULT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'r
 
 # 均线参数
 MA_PERIODS = (5, 10, 20)
-STACK_DAYS = 8
+STACK_DAYS = 14
 
 # 输出数量
 TOP_N = 50

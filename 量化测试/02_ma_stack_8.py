@@ -30,8 +30,8 @@ MA_PERIODS = (5, 10, 20)
 STACK_DAYS = 8
 
 # ---- 涨停筛选参数 ----
-LIMIT_UP_LOOKBACK = 30          # 回看天数
-LIMIT_UP_MIN_COUNT = 3          # 最少涨停次数 (>=3)
+LIMIT_UP_LOOKBACK = 40          # 回看天数
+LIMIT_UP_MIN_COUNT = 2          # 最少涨停次数 (>=3)
 LIMIT_UP_MAX_COUNT = 5          # 最多涨停次数 (<5，即3次或4次)
 LIMIT_UP_THRESHOLD = 9.8        # 涨幅>=9.8%视为涨停
 NO_CONSECUTIVE_LIMIT_UP = True  # True=排除连续涨停

@@ -21,9 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="01_highspeed_download.py" />
     <Compile Include="01_data_history.py" />
     <Compile Include="02_data_realtime.py" />
     <Compile Include="02_ma_stack_14.py" />
+    <Compile Include="02_ma_stack_8.py" />
+    <Compile Include="03_strategy_tracker.py" />
     <Compile Include="03_features.py" />
     <Compile Include="04_strategy_rules.py" />
     <Compile Include="05_backtest.py" />
