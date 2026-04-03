@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="01_highspeed_download.py" />
     <Compile Include="01_data_history.py" />
+    <Compile Include="02_deep_v_rebound.py" />
     <Compile Include="02_data_realtime.py" />
     <Compile Include="02_ma_stack_14.py" />
     <Compile Include="02_ma_stack_8.py" />
